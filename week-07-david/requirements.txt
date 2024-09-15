@@ -1,0 +1,11 @@
+streamlit
+crewai
+pandas
+langchain-groq
+python-dotenv
+groq
+transformers 
+sentence_transformers
+torch
+langchain-huggingface
+accelerate
