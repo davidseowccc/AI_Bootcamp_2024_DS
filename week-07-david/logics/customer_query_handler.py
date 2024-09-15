@@ -1,6 +1,7 @@
 import os
 import json
 import groq
+from groq import Groq
 from helper_functions import llm
 
 category_n_course_name = {'Programming and Development': ['Web Development Bootcamp',
