@@ -11,9 +11,8 @@ import streamlit as st
 
 # import tiktoken
 
-load_dotenv('.env')
-
 # un-comment when in vs-code
+# load_dotenv('.env')
 # client = Groq(api_key=os.getenv('GROQ_KEY'))
 
 # for streamlit
