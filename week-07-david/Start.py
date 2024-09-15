@@ -1,7 +1,7 @@
 # run in windows command prompt: python -m streamlit run Start.py
 
 import streamlit as st
-import groq as Groq
+from groq import Groq
 
 client = Groq(
     api_key=st.secrets["GROQ_KEY"],)
