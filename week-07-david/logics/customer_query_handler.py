@@ -39,8 +39,9 @@ url = 'https://raw.githubusercontent.com/AI_Bootcamp_2024_DS/week-07-david/data/
 
 # Fetch the JSON file from GitHub
 response = requests.get(url)
-json_string = response.text
-dict_of_courses = json.loads(json_string)
+dict_of_courses = response.text
+# json_string = response.text
+# dict_of_courses = json.loads(json_string)
 
 def identify_category_and_courses(user_message):
     delimiter = "####"
