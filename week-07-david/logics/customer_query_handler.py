@@ -3,6 +3,7 @@ import json
 import groq
 from groq import Groq
 from helper_functions import llm
+import requests
 
 category_n_course_name = {'Programming and Development': ['Web Development Bootcamp',
                                                           'Introduction to Cloud Computing',
@@ -28,20 +29,16 @@ category_n_course_name = {'Programming and Development': ['Web Development Bootc
 #     json_string = file.read()
 #     dict_of_courses = json.loads(json_string)
 
-
-import json
-import requests
-
 # URL of the raw JSON file on GitHub
-# url = 'https://raw.githubusercontent.com/your-username/your-repository/main/data/courses-full.json'
-# url = 'https://github.com/davidseowccc/AI_Bootcamp_2024_DS/blob/main/week-07-david/data/courses-full.json'
-url = 'https://raw.githubusercontent.com/AI_Bootcamp_2024_DS/week-07-david/data/courses-full.json'
+url = 'https://raw.githubusercontent.com/davidseowccc/AI_Bootcamp_2024_DS/main/week-07-david/data/courses-full.json'
 
 # Fetch the JSON file from GitHub
 response = requests.get(url)
-dict_of_courses = response.text
-# json_string = response.text
-# dict_of_courses = json.loads(json_string)
+json_string = response.text
+
+# Parse the JSON string into a Python dictionary
+dict_of_courses = json.loads(json_string)
+
 
 def identify_category_and_courses(user_message):
     delimiter = "####"
