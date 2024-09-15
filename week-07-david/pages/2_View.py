@@ -13,8 +13,8 @@ import requests
 
 # URL of the raw JSON file on GitHub
 # url = 'https://raw.githubusercontent.com/your-username/your-repository/main/data/courses-full.json'
-# url = 'https://github.com/davidseowccc/AI_Bootcamp_2024_DS/blob/main/week-07-david/data/courses-full.json'
-url = 'https://raw.githubusercontent.com/AI_Bootcamp_2024_DS/week-07-david/data/courses-full.json'
+url = 'https://github.com/davidseowccc/AI_Bootcamp_2024_DS/blob/main/week-07-david/data/courses-full.json'
+# url = 'https://raw.githubusercontent.com/AI_Bootcamp_2024_DS/week-07-david/data/courses-full.json'
 
 # Fetch the JSON file from GitHub
 response = requests.get(url)
