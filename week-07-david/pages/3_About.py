@@ -23,6 +23,6 @@ with st.expander("How to use this app"):
         2. Click "Submit".
         3. A response would be generated.
         
-        ### View
+        #### View
         1. This page views the listing of courses in a table format.
     ''')
