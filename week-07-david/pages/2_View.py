@@ -18,7 +18,10 @@ url = 'https://raw.githubusercontent.com/davidseowccc/AI_Bootcamp_2024_DS/main/w
 
 # Fetch the JSON file from GitHub
 response = requests.get(url)
-dict_of_courses = response.text
+json_string = response.text
+
+# Parse the JSON string into a Python dictionary
+dict_of_courses = json.loads(json_string)
 
 # Create the DataFrame and Transpose Table
 df = pd.DataFrame(dict_of_courses).T
