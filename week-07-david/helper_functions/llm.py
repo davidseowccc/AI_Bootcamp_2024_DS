@@ -5,6 +5,7 @@ from sentence_transformers import SentenceTransformer
 import transformers
 import torch
 from transformers import AutoTokenizer
+import streamlit as st
 
 # The following codes are adjusted for use with GROQ and HF.
 
@@ -12,12 +13,12 @@ from transformers import AutoTokenizer
 
 load_dotenv('.env')
 
-# Pass the API Key to the OpenAI Client
-client = Groq(api_key=os.getenv('GROQ_KEY'))
+# un-comment when in vs-code
+# client = Groq(api_key=os.getenv('GROQ_KEY'))
 
+# for streamlit
 client = Groq(
-    api_key=st.secrets["GROQ_KEY"],
-)
+    api_key=st.secrets["GROQ_KEY"],)
 
 def get_embeddings(input, model='sentence-transformers/all-mpnet-base-v2'):
     model = SentenceTransformer(model)
@@ -60,8 +61,10 @@ def get_completion_by_messages(messages, model="llama-3.1-70b-versatile", temper
 # This function is for calculating the tokens given the "message"
 # ⚠️ This is simplified implementation that is good enough for a rough estimation
 
-access_token = os.getenv('HF_KEY')
+# unhide when in vs code
+# access_token = os.getenv('HF_KEY')
 
+access_token = st.secrets["HF_KEY"]
 
 # included above
 # import transformers
