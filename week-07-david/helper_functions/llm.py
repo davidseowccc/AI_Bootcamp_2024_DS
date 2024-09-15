@@ -15,6 +15,10 @@ load_dotenv('.env')
 # Pass the API Key to the OpenAI Client
 client = Groq(api_key=os.getenv('GROQ_KEY'))
 
+client = Groq(
+    api_key=st.secrets["GROQ_KEY"],
+)
+
 def get_embeddings(input, model='sentence-transformers/all-mpnet-base-v2'):
     model = SentenceTransformer(model)
     # model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
