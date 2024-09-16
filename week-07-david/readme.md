@@ -3,7 +3,7 @@ Operational now!
 
 ---
 
-## 🔬 Adjustments Needed
+## 🔬 Adjustments done to Python Script (run in IDE)
 
 #### 1. Script to parse data from Github JSON file 
 ```bash
