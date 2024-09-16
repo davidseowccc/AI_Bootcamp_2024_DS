@@ -19,7 +19,7 @@ That’s the essence of their functionality..
 
 ---
 
-## 🚀 Key Features (to build)
+## 🚀 Key Features (to build and dream of)
 
 <details>
 <summary>Click to expand feature list</summary>
@@ -42,11 +42,11 @@ That’s the essence of their functionality..
 <details>
 Contents:
 
-1. **Idea Generation**: TBC.
-2. **Architecture Design**: TBC.
-3. **Development**: TBC.
-4. **DevOps & Deployment**: TBC.
-5. **Continuous Optimisation**: TBC.
+1. **week-07-david_script**: Topic 7 - Python Scripts to run on IDE in WIN to launch streamlit apps.
+2. **week-07-david**: Topic 7 - Streamlit Python Scripts.
+3. **week-08-david_script**: TBC.
+4. **week-08-david**: TBC.
+5. **project**: TBC.
 
 </details>
 
@@ -61,9 +61,9 @@ Contents:
 
 My Learning Journey:
 
-- [ ] LLM
+- [ ] LLM & Prompt Engineering
 - [ ] Advanced RAGs
-- [ ] Agents & CrewAI
+- [ ] Multi Agents & CrewAI
 - [ ] Web platforms & Streamlit
 
 ---
