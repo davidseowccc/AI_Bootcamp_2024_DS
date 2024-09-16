@@ -1,6 +1,7 @@
 This is for streamlit. 
 Operational now!
 
+---
 
 ## 🔬 Adjustments Needed
 
@@ -17,4 +18,9 @@ json_string = response.text
 dict_of_courses = json.loads(json_string)
 ```
 #### 2. To insert secret API key for Streamlit
-####
+```bash
+# for streamlit
+client = Groq(
+    api_key=st.secrets["GROQ_KEY"],)
+```
+
