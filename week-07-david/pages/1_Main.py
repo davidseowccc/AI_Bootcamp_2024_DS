@@ -35,5 +35,5 @@ if form.form_submit_button("Submit"):
     st.divider()
 
     print(course_details)
-    # df = pd.DataFrame(course_details)
-    # df 
+    df = pd.DataFrame(course_details)
+    df 
