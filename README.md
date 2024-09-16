@@ -1,30 +1,30 @@
-[AI Bootcamp coursework are archived here.
+[AI Champions Bootcamp coursework are archived here.
 <h1 align="center">
   <br>
 
   <br>
-  AI Bootcamp
+  AI Bootcamp 2024
   <br>
 </h1>
 
-<h4 align="center">🚀 Next-Gen AI-Powered LLMs Programmes 🤖</h4>
+<h4 align="center">🚀 Next-Gen LLM Applications 🤖</h4>
 
 ---
 
-## 🌟 Welcome to the Future of AI-Driven Development
+## 🌟 The Near Future of AI-Driven Development
 
-abc.
-
-
+If there is one key thing to understand about Large Language Models (LLMs), it is this: 
+they are LARGE neural network models designed to predict the next token in a sequence based on the preceding tokens. 
+That’s the essence of their functionality..
 
 ---
 
-## 🚀 Key Features
+## 🚀 Key Features (to build)
 
 <details>
 <summary>Click to expand feature list</summary>
 
-- **🧠 AI-Powered Collaboration**: Four specialized AI agents work in harmony to manage, develop, and optimize projects
+- **🧠 AI-Powered Collaboration**: Specialized AI agents work in harmony to manage, develop, and optimize projects
 - **⚡ Groq Integration**: Leverage Groq's lightning-fast AI models for unparalleled performance
 - **💡 Autonomous Ideation**: Self-generating project ideas with market potential analysis
 - **🌐 Intelligent Web Research**: Advanced web scraping and data synthesis capabilities
@@ -42,11 +42,11 @@ abc.
 <details>
 Contents:
 
-1. **Idea Generation**: abc.
-2. **Architecture Design**: abc.
-3. **Development**: abc.
-4. **DevOps & Deployment**: abc.
-5. **Continuous Optimization**: abc.
+1. **Idea Generation**: TBC.
+2. **Architecture Design**: TBC.
+3. **Development**: TBC.
+4. **DevOps & Deployment**: TBC.
+5. **Continuous Optimisation**: TBC.
 
 </details>
 
@@ -85,11 +85,6 @@ We welcome contributions from innovators worldwide! Here's how to get involved:
 <details>
 <summary><strong>Is this suitable for beginners?</strong></summary>
 Absolutely! It's designed to be user-friendly for developers of all levels, and accessible to everyone.
-</details>
-
-<details>
-<summary><strong>How does this ensure code quality?</strong></summary>
-abc
 </details>
 
 <details>
