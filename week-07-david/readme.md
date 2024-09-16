@@ -1,5 +1,6 @@
-This is for streamlit. 
-Operational now!
+⭐ This is for streamlit. Operational now!
+
+💼 Connect on: https://week07.streamlit.app/ 
 
 ---
 
