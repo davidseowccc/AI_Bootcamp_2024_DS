@@ -13,7 +13,7 @@
 
 ## 🌟 Welcome to the Future of AI-Driven Development
 
-GroqAgenticWorkflow is a revolutionary AI system that harnesses the power of Groq technology to autonomously generate profitable Python scripts. Our cutting-edge platform combines specialized AI agents, advanced NLP, and state-of-the-art language models to create a truly self-sustaining development ecosystem.
+abc.
 
 
 
@@ -29,11 +29,9 @@ GroqAgenticWorkflow is a revolutionary AI system that harnesses the power of Gro
 - **💡 Autonomous Ideation**: Self-generating project ideas with market potential analysis
 - **🌐 Intelligent Web Research**: Advanced web scraping and data synthesis capabilities
 - **🛠️ Robust Code Management**: Automated testing, optimization, and version control
-- **💰 Crypto Wallet Integration**: Seamless blockchain transactions and profit management
 - **🔗 Smart Memory Handling**: Efficient data management using Ollama and ChromaDB
 - **📊 NLP-Driven Task Management**: Automated task extraction, prioritization, and tracking
 - **🔄 Continuous Learning**: Self-improving algorithms for ever-increasing efficiency(future improvement)
-- **🔐 Enterprise-Grade Security**: Built-in safeguards for code and data protection(future improvement)
 
 </details>
 
@@ -80,27 +78,25 @@ We welcome contributions from innovators worldwide! Here's how to get involved:
 4. 🚀 Push to the branch: `git push origin feature/AmazingFeature`
 5. 🎉 Open a pull request
 
-Please read our [Contribution Guidelines](CONTRIBUTING.md) for more details.
-
 ---
 
 ## ❓ FAQ
 
 <details>
-<summary><strong>Is GroqAgenticWorkflow suitable for beginners?</strong></summary>
-Absolutely! While our system is powerful, it's designed to be user-friendly for developers of all levels. Our extensive documentation and community support make it accessible to everyone.
+<summary><strong>Is this suitable for beginners?</strong></summary>
+Absolutely! It's designed to be user-friendly for developers of all levels, and accessible to everyone.
 </details>
 
 <details>
-<summary><strong>How does GroqAgenticWorkflow ensure code quality?</strong></summary>
-Our AI agents are trained on best coding practices and use advanced static analysis tools. Additionally, Alex, our DevOps AI, runs comprehensive test suites to ensure top-notch quality.
+<summary><strong>How does this ensure code quality?</strong></summary>
+abc
 </details>
 
 <details>
-<summary><strong>Can GroqAgenticWorkflow integrate with existing projects?</strong></summary>
-Yes! GroqAgenticWorkflow is designed to seamlessly integrate with existing codebases. It can analyze your current project and suggest improvements or extensions.
+<summary><strong>Can this integrate with existing projects?</strong></summary>
+Yes! This is designed to seamlessly integrate with existing codebases. It can analyze your current project and suggest improvements or extensions.
 </details>
 
 ---
 
-](https://github.com/davidseowccc/GroqAgenticWorkflow)
+](https://github.com/davidseowccc/AI_Bootcamp_2024_DS)
