@@ -94,4 +94,12 @@ Yes! This is designed to seamlessly integrate with existing codebases. It can an
 
 ---
 
+<!-- SEO and topic tags -->
+<p align="center">
+  <a href="https://github.com/topics/artificial-intelligence"><img src="https://img.shields.io/badge/Topic-Artificial%20Intelligence-brightgreen" alt="Topic: Artificial Intelligence"></a>
+  <a href="https://github.com/topics/machine-learning"><img src="https://img.shields.io/badge/Topic-Machine%20Learning-brightgreen" alt="Topic: Machine Learning"></a>
+  <a href="https://github.com/topics/groq"><img src="https://img.shields.io/badge/Topic-Groq-brightgreen" alt="Topic: Groq"></a>
+  <a href="https://github.com/topics/autonomous-agents"><img src="https://img.shields.io/badge/Topic-Autonomous%20Agents-brightgreen" alt="Topic: Autonomous Agents"></a>
+  <a href="https://github.com/topics/python"><img src="https://img.shields.io/badge/Topic-Python-brightgreen" alt="Topic: Python"></a>
+</p>
 ](https://github.com/davidseowccc/AI_Bootcamp_2024_DS)
