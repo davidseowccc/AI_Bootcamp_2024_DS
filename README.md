@@ -1,4 +1,4 @@
-[AI Champions Bootcamp coursework are archived here.
+AI Champions Bootcamp coursework are archived here.
 <h1 align="center">
   <br>
 
@@ -102,4 +102,5 @@ Yes! This is designed to seamlessly integrate with existing codebases. It can an
   <a href="https://github.com/topics/autonomous-agents"><img src="https://img.shields.io/badge/Topic-Autonomous%20Agents-brightgreen" alt="Topic: Autonomous Agents"></a>
   <a href="https://github.com/topics/python"><img src="https://img.shields.io/badge/Topic-Python-brightgreen" alt="Topic: Python"></a>
 </p>
-](https://github.com/davidseowccc/AI_Bootcamp_2024_DS)
+
+https://github.com/davidseowccc/AI_Bootcamp_2024_DS
