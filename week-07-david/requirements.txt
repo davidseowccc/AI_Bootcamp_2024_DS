@@ -9,3 +9,4 @@ sentence_transformers
 torch
 langchain-huggingface
 accelerate
+hmac
