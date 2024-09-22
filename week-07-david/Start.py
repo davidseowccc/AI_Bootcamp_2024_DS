@@ -17,8 +17,9 @@ while True:
 
     else: 
         # Check if the password is correct.  
-        if not check_password():  
-            st.stop()
+        check_password()
+            if not check_password():  
+                st.stop()
 
 #####
 
