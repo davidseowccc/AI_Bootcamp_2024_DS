@@ -11,7 +11,7 @@ from helper_functions.utility import check_password
 # Demo password or no password required
 pw = st.text_input('Select "1" to BYPASS password.')
 
-if (pw = "1"):
+if (pw == "1"):
     break
 
 else: 
