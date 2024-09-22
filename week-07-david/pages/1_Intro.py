@@ -1,7 +1,6 @@
 # run in windows command prompt: python -m streamlit run Start.py
 
 import streamlit as st
-from groq import Groq
 
 ####
 
@@ -10,9 +9,6 @@ from groq import Groq
 #     st.stop()
     
 #####
-
-client = Groq(
-    api_key=st.secrets["GROQ_KEY"],)
 
 st.set_page_config(
     page_title="Course Query Chatbot",
