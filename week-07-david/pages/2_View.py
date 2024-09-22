@@ -3,14 +3,6 @@ import json
 import pandas as pd
 import requests
 
-from helper_functions.utility import check_password  
-
-#####
-# Check if the password is correct.  
-if check_password() == False:  
-    st.stop()
-#####
-
 # # Load the JSON file
 # filepath = './data/courses-full.json'
 # with open(filepath, 'r') as file:
