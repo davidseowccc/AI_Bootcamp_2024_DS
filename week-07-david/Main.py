@@ -4,6 +4,7 @@
 import streamlit as st
 import pandas as pd
 from groq import Groq
+
 # from helper_functions import llm  # Not needed anymore. 
 # The helper function is now directly called by 'customer_query_handler'
 from logics.customer_query_handler import process_user_message
