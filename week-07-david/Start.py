@@ -11,14 +11,15 @@ from helper_functions.utility import check_password
 # Demo password or no password required
 pw = st.text_input('Select "1" to BYPASS password.')
 
-if (pw == "1"):
-    break
+while True:
+    if (pw == "1"):
+        break
 
-else: 
-    # Check if the password is correct.  
-    if not check_password():  
-        st.stop()
-    
+    else: 
+        # Check if the password is correct.  
+        if not check_password():  
+            st.stop()
+
 #####
 
 client = Groq(
