@@ -7,6 +7,13 @@ import pandas as pd
 # The helper function is now directly called by 'customer_query_handler'
 from logics.customer_query_handler import process_user_message
 
+from helper_functions.utility import check_password  
+
+#####
+# Check if the password is correct.  
+if check_password() == False:  
+    st.stop()
+#####
 
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
