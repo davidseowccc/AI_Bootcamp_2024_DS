@@ -9,9 +9,9 @@ from helper_functions.utility import check_password
 
 #####
 # Demo password or no password required
-pw = st.text_input('Select "1" to BYPASS password.')
-
 while True:
+    pw = st.text_input('Select "1" to BYPASS password.')
+    
     if (pw == "1"):
         # Check if the password is correct.  
         if not check_password():  
