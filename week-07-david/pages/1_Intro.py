@@ -5,9 +5,9 @@ from groq import Groq
 
 ####
 
-from helper_functions.utility import check_password  
-if not check_password():  
-    st.stop()
+# from helper_functions.utility import check_password  
+# if not check_password():  
+#     st.stop()
     
 #####
 
