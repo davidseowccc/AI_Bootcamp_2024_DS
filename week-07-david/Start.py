@@ -13,11 +13,12 @@ while True:
     pw = st.text_input('Select "1" to BYPASS password.')
     
     if (pw == "1"):
+        break
+
+    else:
         # Check if the password is correct.  
         if not check_password():  
             st.stop()
-    else:
-        break
 
 #####
 
