@@ -9,12 +9,10 @@ from groq import Groq
 # The helper function is now directly called by 'customer_query_handler'
 from logics.customer_query_handler import process_user_message
 
-####
-
+#### Password HMAC
 from helper_functions.utility import check_password  
 if not check_password():  
     st.stop()
-    
 #####
 
 client = Groq(
