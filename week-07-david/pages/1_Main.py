@@ -3,17 +3,17 @@
 # Set up and run this Streamlit App
 import streamlit as st
 import pandas as pd
-# from helper_functions import llm  # Not needed anymore. 
-# The helper function is now directly called by 'customer_query_handler'
-from logics.customer_query_handler import process_user_message
-
-from helper_functions.utility import check_password  
 
 #####
 # Check if the password is correct.  
 if check_password() == False:  
     st.stop()
 #####
+
+# from helper_functions import llm  # Not needed anymore. 
+# The helper function is now directly called by 'customer_query_handler'
+from helper_functions.utility import check_password  
+
 
 # region <--------- Streamlit App Configuration --------->
 st.set_page_config(
