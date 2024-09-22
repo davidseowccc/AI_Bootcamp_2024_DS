@@ -31,7 +31,7 @@ st.markdown(
 
     **👈 Select a page from the sidebar** for all this app can do!
     
-    #### Start  - current page
+    #### Intro  - current page
     #### Main   - chatbot
     #### View   - view all courses
     #### About  - about this App
