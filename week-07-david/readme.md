@@ -1,6 +1,6 @@
 ⭐ This is for streamlit. Operational now! For Week 8 learning activity...
 
-💼 Connect on: https://week07.streamlit.app/ 
+💼 Connect on: https://week08.streamlit.app/ 
 
 ---
 
