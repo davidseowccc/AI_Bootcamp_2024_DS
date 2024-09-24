@@ -1,49 +1,35 @@
-# run in windows command prompt: python -m streamlit run main.py
+# run in windows command prompt: python -m streamlit run Start.py
 
-# Set up and run this Streamlit App
 import streamlit as st
-import pandas as pd
-from groq import Groq
 
-# from helper_functions import llm  # Not needed anymore. 
-# The helper function is now directly called by 'customer_query_handler'
-from logics.customer_query_handler import process_user_message
+####
 
-# #### Password HMAC
 # from helper_functions.utility import check_password  
 # if not check_password():  
 #     st.stop()
-# #####
-
-client = Groq(
-    api_key=st.secrets["GROQ_KEY"],)
-
-# region <--------- Streamlit App Configuration --------->
-st.set_page_config(
-    layout="centered",
-    page_title="Course Query Demo - DS20240915"
-)
-# endregion <--------- Streamlit App Configuration --------->
-
-st.title("Course Query Chatbot")
-st.text("David Seow, 15 Sep 2024")
-
-form = st.form(key="form")
-form.subheader("Prompt")
-
-user_prompt = form.text_area("Enter your prompt/query here", height=200)
-
-if form.form_submit_button("Submit"):
     
-    st.toast(f"User Input Submitted - {user_prompt}")
+#####
 
-    st.divider()
+st.set_page_config(
+    page_title="Course Query Chatbot",
+    page_icon="👋",
+)
 
-    response, course_details = process_user_message(user_prompt)
-    st.write(response)
+st.write("# Welcome to Course Query Chatbot! 👋")
+st.text("by David Seow 15 Sep 2024")
 
-    st.divider()
+# st.sidebar.success("Select a demo above.")
 
-    print(course_details)
-    df = pd.DataFrame(course_details)
-    df 
+st.markdown(
+    """
+    This chatbot app deploys Streamlit as the web framework deploying Llama3.1 as LLM.
+     It details a chatbot for a sample suite of courses that could be found in the 'View all courses' tab.
+
+    **👈 Select a page from the sidebar** for all this app can do!
+    
+    #### Main   - chatbot
+    #### Intro  - current page
+    #### View   - view all courses
+    #### About  - about this App
+    """
+)
