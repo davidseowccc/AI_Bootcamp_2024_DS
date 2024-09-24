@@ -27,9 +27,10 @@ st.markdown(
 
     **👈 Select a page from the sidebar** for all this app can do!
     
-    #### Main   - chatbot
-    #### Intro  - current page
-    #### View   - view all courses
-    #### About  - about this App
+    #### Main           - Menu page (Current page)
+    #### Chatbot        - Chatbot
+    #### Password Demo  - Demo
+    #### View           - view all courses
+    #### About          - about this App
     """
 )
